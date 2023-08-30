@@ -1,19 +1,15 @@
-
-
-h1 {
-  font-size: 40px;
-  font-family: Arial
-}
-h2 {
-  font-size: 25px;
-  font-family: Arial
-}
-h3 {
-  font-family: Arial
-}
-p {
-  font-size: 14px;
-  font-family: Arial
+/* Apply styles to the entire document */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-
+/* Page header */
+.page-header {
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
